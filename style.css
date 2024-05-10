@@ -1,0 +1,481 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' sans-serif;
+}
+body{
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0vh; /*rem:Return me to 50vh*/
+
+}
+.Father-container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin-top: 0vh;
+  margin: 50px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: start;
+  align-items: end;
+}
+
+nav .intro p,
+nav .designedby p{
+  padding-bottom: 02vh;
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.Father-container hr{
+  height: 6px;
+  background-color: black;
+  width: 100%;
+
+}
+
+/*subtitle*/
+.subtitle{
+  padding-top: 02vh;
+}
+.subtitle p{
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*full-cointainer*/
+.full-cointainer{
+  margin-top: 02vh;
+  width: 100%;
+}
+
+.full-cointainer .model-face{
+  background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("images/Beth/pic26.jpg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.full-cointainer .model-face .contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0vh;
+  width: 80%;
+}
+.full-cointainer .model-face .contents .about-link{
+  position: absolute;
+  left:5%;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+}
+.full-cointainer .model-face .contents .gallery-link{
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+}
+.full-cointainer .model-face .contents .contants-link{
+  position: absolute;
+  left: 95%;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+}
+
+.full-cointainer .model-face h2{
+  justify-content: center;
+  color: white;
+  font-size: 6rem;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+
+/*About Me*/
+.full-cointainer .about-me{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 400px;
+}
+.full-cointainer .about-me .about-detail{
+  width: 35%;
+  padding-left: 7vh;
+}
+
+.full-cointainer .about-me .about-detail img{
+  width: 40%;
+  border-radius: 40px;
+  margin-bottom: 7vh;
+}
+
+.full-cointainer .about-me .about-detail p{
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.full-cointainer .about-me .about-pic{
+  width: 50%;
+  margin-left: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-cointainer .about-me .about-pic img{
+  border-radius: 10px;
+  padding-right: 2vh;
+  width: 90%;
+}
+.full-cointainer .about-me .about-pic h1{
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+}
+.full-cointainer hr{
+  height: 6px;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+
+/*Spec*/
+.full-cointainer .specs{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  height:750px;
+}
+.full-cointainer .specs .specs-details{
+  width: 50%;
+  padding-left: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding-top: 2vh;
+}
+.full-cointainer .specs .specs-details img{
+  width: 50%;
+  border-radius: 40px;
+}
+.full-cointainer .specs .specs-details h3{
+  font-style: italic;
+  font-weight: 800;
+}
+.full-cointainer .specs .specs-details ul{
+  width: 80%;
+}
+.full-cointainer .specs .specs-details ul li{
+  list-style: none;
+}
+.full-cointainer .specs .specs-details .stat{
+  display: block;
+  font-weight: 15;
+  font-size: small;
+}
+.full-cointainer .specs .specs-details .stat b{
+  font-style: italic;
+  font-weight: 200;
+  font-size: small;
+}
+.full-cointainer .specs .specs-details .percent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: inline-block;
+  margin-top: 5px;
+}
+.full-cointainer .specs .specs-details .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #03a9f4;
+}
+.full-cointainer .specs .specs-details .percent .redhair{
+  background-color: red;
+}
+.full-cointainer .specs .specs-pic{
+  padding-top: 20vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.full-cointainer .specs .specs-pic img{
+  width: 75%;
+  border-radius: 10px;
+}
+
+/*ThumbNail*/
+.full-cointainer .thumbnail{
+  background-image:url("images/Beth/pic28.jpg");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.full-cointainer .thumbnail h2{
+  font-size: 6rem;
+  letter-spacing: 1px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+/*line*/
+.full-cointainer .line{
+  background-color: white;
+  height: 10vh;
+  padding-top: 8vh;
+  position: relative;
+}
+/*gallery*/
+.full-cointainer .gallery{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 10vh;
+  position: relative;
+}
+.full-cointainer .gallery .gallery-left{
+  padding-left: 10vh;
+  width: 50%;
+  position: relative;
+}
+.full-cointainer .gallery .gallery-left .img1{
+  margin-top: 10vh;
+  width: 20vh;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  display: block;
+}
+.full-cointainer .gallery .gallery-left .img1i{
+  position: absolute;
+  width: 30vh;
+  left: 60vh;
+  top: 10vh;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+}
+.full-cointainer .gallery .gallery-left .img2{
+  width: 40vh;
+  border-radius: 10px;
+  margin-left: 5vh;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  margin-top: 10vh;
+}
+.full-cointainer .gallery .gallery-left .img3{
+  width: 60vh;
+  z-index: 1;
+  border-radius: 10px;
+  margin-left: 5vh;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  margin-top: 20vh;
+  background-size: cover;
+  background-position: center;
+}
+.full-cointainer .gallery .gallery-right{
+  position: relative;
+  width: 50%;
+}
+.full-cointainer .gallery .gallery-right .img4{
+  width: 40vh;
+  z-index: 1;
+  border-radius: 10px;
+  margin-left: 5vh;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  position: absolute;
+  top: -15vh;
+  left: 20vh;
+}
+.full-cointainer .gallery .gallery-right .img5{
+  width: 60vh;
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  position: absolute;
+  top: 50vh;
+  left: 10vh;
+}
+.full-cointainer .gallery .gallery-right .img6{
+  width: 60vh;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+  position: absolute;
+  bottom: 8vh;
+}
+
+/*contants*/
+.full-cointainer footer{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.full-cointainer footer .contants-left{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-cointainer footer .contants-left h3{
+  font-style: italic;
+  font-weight: 800;
+}
+.full-cointainer footer .contants-left p{
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+}
+.full-cointainer footer .contants-left ul{
+  position: relative;
+}
+.full-cointainer footer .contants-left ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.full-cointainer footer .contants-left ul li .icon{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.full-cointainer footer .contants-left ul li span{
+  font-size: 12px;
+  font-weight: 200;
+  font-style: italic;
+}
+.full-cointainer footer .contants-right{
+  width: 20%;
+}
+.full-cointainer footer .contants-right img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0 rgba(10, 10, 10, 0.7);
+}
+
+@media (max-width:475px){
+  /*Model Face*/
+  .full-cointainer .model-face .contents .gallery-link,
+  .full-cointainer .model-face .contents .contants-link,
+  .full-cointainer .model-face .contents .about-link{
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .full-cointainer .model-face{
+    height: 60vh;
+  }
+  .full-cointainer .model-face h2{
+    font-size: 5rem;
+  
+  }
+
+  /*About me*/
+  .full-cointainer .about-me{
+  }
+  .full-cointainer .about-me .about-detail{
+    width: 100%;
+    padding-left: 7vh;
+  }
+  .full-cointainer .about-me .about-detail img{
+    margin-bottom: 0;
+  }
+  .full-cointainer .about-me .about-detail p{
+    font-size: 8px;
+    font-weight: 100;
+  }
+  .full-cointainer .about-me .about-pic{
+    margin-right: 6px;
+  }
+  .full-cointainer .about-me .about-pic h1{
+    font-size: 60px;
+  }
+  .full-cointainer .specs{
+    height:80vh;
+  }
+
+  /*theumbnail*/
+  .full-cointainer .thumbnail{
+    background-size: cover;
+    background-position:70%;
+  }
+  .full-cointainer .thumbnail h2{
+    font-size: 4.2rem;
+  }
+
+  /*gallery*/
+  .full-cointainer .gallery .gallery-left{
+    padding-left: 0;
+  }
+
+  .full-cointainer .gallery .gallery-left .img1{
+    width: 25vh;
+  }
+  .full-cointainer .gallery .gallery-left .img1i{
+    width: 25vh;
+    left: 30vh;
+    top: 30vh;
+  }
+  .full-cointainer .gallery .gallery-left .img2{
+    width: 25vh;
+    margin-left: 0;
+  }
+  .full-cointainer .gallery .gallery-left .img3{
+    width: 25vh;
+    margin-left: 1cqw;
+  }
+  .full-cointainer .gallery .gallery-right .img4{
+    width: 25vh;
+    left: -10vh;
+  }
+  .full-cointainer .gallery .gallery-right .img5{
+    width: 25vh;
+    top: 70vh;
+    left: 0vh;
+  }
+  .full-cointainer .gallery .gallery-right .img6{
+    width: 30vh;
+    left: -5vh;
+    bottom: 5vh;
+  }
+
+}
